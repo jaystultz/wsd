@@ -6,3 +6,9 @@ body{
 	width: 790px;
 	margin: 0 auto;
 }
+
+p{
+	font-weight: bold;
+	color: blue;
+	
+}
