@@ -16,4 +16,8 @@ body{
 
 .container{
 	background-color: #aeaeae;
+	margin: auto;
+	padding: 20px;
+	width: 790px;
+	position: center;
 }
