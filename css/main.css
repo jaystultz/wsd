@@ -52,7 +52,7 @@ ul{
 
 li{
 	width: 150px;
-	background:;
+	background: #fff;
 	float: left;
 }
 
@@ -67,8 +67,8 @@ a{
 }
 
 a:hover{
-	color: #fff
-	background-color: #5174d5
+	color: #fff;
+	background-color: #5174d5;
 }
 
 .mainshark{
