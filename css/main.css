@@ -59,7 +59,7 @@ li{
 	width: 150px;
 	background: #fff;
 	float: right;
-	clear; left;
+	clear: left;
 }
 
 a.hoverable{
