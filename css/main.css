@@ -59,11 +59,11 @@ h1{
 	float: left;
 	clear: right;
 	text-shadow: 4px 4px 8px white;
-	background-color: white;
+}
 	
 h2{
 	margin: 0 auto;
-	float: right;
+	float: left;
 	clear: left;
 }
 
