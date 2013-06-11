@@ -1,43 +1,47 @@
-/*Main Setup-------------------------------------------------------------*/
-
-
-body{
+body{ 
 	font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	width: 960px;
-	margin:0 auto;
-	padding:0;
+	margin: 0 auto;
+	padding: 0;
 	background-image: url("../images/blue_swirl copy.jpg");
 	background-attachment: fixed;	
 }
 
+/*#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}*/
+
 .container{
 	background-color: #aeaeae;
-	margin: auto;
-	padding: 15px;
+	margin: 0;
+	padding: 5px;
 	width: 960px;
-}
-
-#wrapper {
-	width: 960px;
-	margin:0 auto;
 }
 
 .logo{
-	margin:0 auto;
+	margin: 0 auto;
 	float: left;
 }
 
 h1{
-	padding: 5px; 
-	float: left;
-	clear:right;
-
+	padding: 0; 
+	float: right;
+	text-shadow: 4px 4px 8px white;
 }
 
 h2{
-	margin:0;
-	padding: 5px;
-	clear: both;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.mainshark{
+	float: right;
+	width: 294px;
+	height: 171px;
+	margin: 0 auto;
+	clear: left;
 }
 
 ul{
@@ -48,34 +52,29 @@ ul{
 	padding: 0;
 	overflow: hidden;
 	float: right;
+	clear: left;
 }
 
 li{
 	width: 150px;
 	background: #fff;
-	float: left;
+	float: right;
+	clear; left;
 }
 
-a{
+a.hoverable{
 	text-decoration: none;
 	background: #fff;
 	display: block;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	color: #5174d5
+	color: #5174d5;
 }
 
-a:hover{
+a.hoverable:hover{
 	color: #fff;
 	background-color: #5174d5;
-}
-
-.mainshark{
-	float: left;
-	width: 294px;
-	height: 171px;
-	margin: 0;
 }
 
 .introductioninfo{
@@ -84,17 +83,11 @@ a:hover{
 	height: 171px;
 	padding: 0px 10px;
 	margin: 0;
-	float: right;
-	clear: left;
+	float: left;
 }
 
-.grinddefinition{
+.grinddefinition {
 	background-color: pink;
 	width:200px;
-	clear:none;
 }
 
-
-gallery{
-
-}
