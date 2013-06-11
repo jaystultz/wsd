@@ -7,46 +7,16 @@ body{
 	background-attachment: fixed;	
 }
 
-/*#wrapper{
-	width: 960px;
-	margin: 0 auto;
-}*/
-
-.container{
+/*.container{
 	background-color: #aeaeae;
 	margin: 0;
 	padding: 5px;
 	width: 960px;
-}
-
-.logo{
-	margin: 0 auto;
-	float: left;
-}
-
-h1{
-	padding: 0; 
-	float: right;
-	text-shadow: 4px 4px 8px white;
-}
-
-h2{
-	margin: 0;
-	padding: 0;
-	float: right;
-}
-
-.mainshark{
-	float: right;
-	width: 294px;
-	height: 171px;
-	margin: 0 auto;
-	clear: left;
-}
+}*/
 
 ul{
 	width: 450px;
-	margin: 0;
+	margin: 10px;
 	background-color: white;
 	list-style-type: none;
 	padding: 0;
@@ -77,17 +47,44 @@ a.hoverable:hover{
 	background-color: #5174d5;
 }
 
+.logo{
+	margin: auto;
+	float: left;
+	clear: right;
+}
+
+
+h1{
+	margin: 0 auto; 
+	float: left;
+	clear: right;
+	text-shadow: 4px 4px 8px white;
+	background-color: white;
+	
+h2{
+	margin: 0 auto;
+	float: right;
+	clear: left;
+}
+
+
+
+.mainshark{
+	margin: 0 auto;
+	width: 294px;
+	height: 171px;
+	float: right;
+	clear: left;
+}
+
+
 .introductioninfo{
-	background-color:blue;
 	width: 636px;
 	height: 171px;
 	padding: 0px 10px;
 	margin: 0;
 	float: left;
+	clear: right;
 }
 
-.grinddefinition {
-	background-color: pink;
-	width:200px;
-}
 
