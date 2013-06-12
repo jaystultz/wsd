@@ -108,12 +108,21 @@ h3{
 	margin-left: 10px;
 }
 
-/*#gallerylink{
-	border: 1px solid #fff;
+.gallerylink{
+	border: 5px solid #fff;
 	display: block;
 	height: 85px;
 	width: 145px;
-}*/
+}
+
+.gallerylink:visited
+	border-color: #e3edff
+
+.gallerylink:hover
+	border-color: #navy
+	
+.gallerylink:active
+	border-color: #000
 
 #SharkFacts{
 	list-style-type: open
