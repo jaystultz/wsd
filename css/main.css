@@ -2,7 +2,8 @@ body{
 	font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	width: 960px;
 	margin: 0 auto;
-	padding: 0;
+	padding: none;
+	line-height: 100%;
 	background-image: url("../images/blue_swirl copy.jpg");
 	background-attachment: fixed;	
 }
@@ -14,9 +15,28 @@ body{
 	width: 960px;
 }
 
-ul{
-	width: 450px;
+.logo{
 	margin: 10px;
+	float: left;
+	clear: right;
+}
+
+h1{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0; 
+	float: left;
+	clear: left;
+	text-shadow: 4px 4px 8px white;
+}
+
+h2{
+	float: left;
+	clear: left;
+}
+
+.nav{
+	width: 450px;
+	margin: 10px, 0;
 	background-color: white;
 	list-style-type: none;
 	padding: 0;
@@ -25,11 +45,11 @@ ul{
 	clear: left;
 }
 
-li{
+.listnav{
 	width: 150px;
 	background: #fff;
-	float: right;
-	clear: left;
+	float: left;
+	clear: right;
 }
 
 a.hoverable{
@@ -47,44 +67,56 @@ a.hoverable:hover{
 	background-color: #5174d5;
 }
 
-.logo{
-	margin: auto;
-	float: left;
-	clear: right;
-}
-
-
-h1{
-	margin: 0 auto; 
-	float: left;
-	clear: right;
-	text-shadow: 4px 4px 8px white;
-}
-	
-h2{
-	margin: 0 auto;
-	float: left;
-	clear: left;
-}
-
-
-
 .mainshark{
 	margin: 0 auto;
 	width: 294px;
 	height: 171px;
-	float: right;
+	float: left;
 	clear: left;
 }
 
+h3{
+	float:right;
+	clear: right;
+}
 
 .introductioninfo{
 	width: 636px;
 	height: 171px;
 	padding: 0px 10px;
-	margin: 0;
 	float: left;
 	clear: right;
+}
+
+.link{
+	margin: 0, auto;
+	float: left;
+	clear: left;
+}
+
+.imagegallery{
+	list-style-type: none;
+	border: 1px solid #fff;
+	width: 680px;
+	margin: 10px auto;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.gallerylist{
+	float: left;
+	margin-left: 10px;
+}
+
+/*#gallerylink{
+	border: 1px solid #fff;
+	display: block;
+	height: 85px;
+	width: 145px;
+}*/
+
+#SharkFacts{
+	list-style-type: open
 }
 
 
