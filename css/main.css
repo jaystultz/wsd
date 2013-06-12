@@ -30,6 +30,22 @@ body{
 	clear: right;
 }
 
+a:link{
+	color: blue
+}
+
+a:visited{
+	color: purple
+}
+
+a:hover{
+	color: #fff
+}
+
+a:active{
+	color: black
+}
+
 h1{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #101010;
@@ -112,6 +128,7 @@ h3{
 	padding: 10px;
 	background-color: #e0e0e0;
 	float: left;
+	color: #5174d5;
 }
 
 .imagegallery{
@@ -138,14 +155,17 @@ h3{
 	overflow: hidden;
 }
 
+.gallerylink:link
+	border-color: #e3edff;
+
 .gallerylink:visited
-	border-color: #e3edff
+	border-color: navy;
 
 .gallerylink:hover
-	border-color: #navy
+	border-color: #fff;
 	
 .gallerylink:active
-	border-color: #000
+	border-color: #000;
 
 #SharkFacts{
 	float: left;
@@ -156,19 +176,5 @@ h3{
 	list-style-type: circle;	
 }
 
-a:link{
-	color: blue
-}
 
-a:visited{
-	color: purple
-}
-
-a:hover{
-	color: #fff
-}
-
-a:active{
-	color: black
-}
 
