@@ -5,14 +5,23 @@ body{
 	padding: none;
 	line-height: 100%;
 	background-image: url("../images/blue_swirl copy.jpg");
-	background-attachment: fixed;	
+	background-attachment: fixed;
+	-ms-opacity: 0.9;
+	-moz-opacity: 0.9;
+	-webkit-opacity: 0.9;
+	-o-opacity: 0.9;
+	opacity: 0.9;
+	
 }
 
 .container{
-	background-color: #aeaeae;
-	margin: 0;
-	padding: 5px;
 	width: 960px;
+	background-image: url("../images/Gray_Gradient.jpg");
+	background-repeat: repeat-x;
+	background-color: #aeaeae;
+	margin: 0 auto;
+	padding: 10px;
+	overflow: hidden;
 }
 
 .logo{
@@ -26,7 +35,7 @@ h1{
 	margin: 0; 
 	float: left;
 	clear: left;
-	text-shadow: 4px 4px 8px white;
+	text-shadow: 4px 4px 8px #aeaeae;
 }
 
 h2{
@@ -106,6 +115,7 @@ h3{
 .gallerylist{
 	float: left;
 	margin-left: 10px;
+	overflow: hidden
 }
 
 .gallerylink{
@@ -113,6 +123,7 @@ h3{
 	display: block;
 	height: 85px;
 	width: 145px;
+	overflow: hidden;
 }
 
 .gallerylink:visited
@@ -128,4 +139,20 @@ h3{
 	list-style-type: open
 }
 
+a:link{
+	color: blue
+}
+
+a:visited{
+	color: purple
+}
+
+a:hover{
+	color: #fff
+}
+
+a:active{
+	color: black
+}
+	
 
