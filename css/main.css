@@ -2,7 +2,6 @@ body{
 	font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	width: 960px;
 	margin: 0 auto;
-	padding: none;
 	line-height: 100%;
 	background-image: url("../images/blue_swirl copy.jpg");
 	background-attachment: fixed;
@@ -49,7 +48,7 @@ h2{
 
 .nav{
 	width: 450px;
-	margin: 10px, 0;
+	margin: 10px, auto;
 	background-color: white;
 	list-style-type: none;
 	padding: 0;
@@ -96,7 +95,7 @@ h3{
 .introductioninfo{
 	width: 636px;
 	height: 115px;
-	line-heigh: 115px;
+	line-height: 115px;
 	padding: 10px 10px;
 	display: block;
 	background: #e0e0e0;
