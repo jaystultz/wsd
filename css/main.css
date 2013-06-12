@@ -32,15 +32,19 @@ body{
 
 h1{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #101010;
 	margin: 0; 
 	float: left;
 	clear: left;
-	text-shadow: 4px 4px 8px #aeaeae;
+	text-shadow: 4px 4px 8px #fff;
 }
 
 h2{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #101010;
 	float: left;
 	clear: left;
+	text-shadow: 4px 4px 8px #fff;
 }
 
 .nav{
@@ -136,7 +140,12 @@ h3{
 	border-color: #000
 
 #SharkFacts{
-	list-style-type: open
+	float: left;
+	clear: left;
+}
+
+.sharkfacts{
+	list-style-type: circle;	
 }
 
 a:link{
