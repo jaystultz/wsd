@@ -256,7 +256,8 @@ a:active{
 }
 
 section{
-	margin: 0 20px;
+	margin: 0 auto;
+	width:860px;
 }
 
 .columns{
@@ -267,10 +268,10 @@ section{
 	-webkit-column-count: 3;
 	text-align: justify;
 	padding: 5px;
-	margin: 0 20px 0 20px;
+	margin: 0 auto;
 	line-height: 15px;
 	width: 860px;
-	height: 230px;
+	height: 210px;
 }
 /*Why Sharks Bite People end--------------------------------------------*/
 
