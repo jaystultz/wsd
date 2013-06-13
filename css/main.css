@@ -1,9 +1,9 @@
 body{ 
-	font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	width: 960px;
 	margin: 0 auto;
 	padding: none;
-	line-height: 100%;
+	line-height: 1.25;
 	background-image: url("../images/blue_swirl copy.jpg");
 	background-attachment: fixed;
 	-ms-opacity: 0.9;
@@ -11,7 +11,6 @@ body{
 	-webkit-opacity: 0.9;
 	-o-opacity: 0.9;
 	opacity: 0.9;
-	
 }
 
 .container{
@@ -21,14 +20,9 @@ body{
 	background-color: #A8A8A8;
 	margin: 0 auto;
 	padding: 10px;
-	overflow: hidden;
 }
 
-.logo{
-	margin: 10px;
-	float: left;
-	clear: right;
-}
+/* General page link properties-----------------------------------------*/
 
 a:link{
 	color: blue
@@ -45,13 +39,36 @@ a:hover{
 a:active{
 	color: black
 }
+/*end-------------------------------------------------------------------*/
+
+
+/*Header----------------------------------------------------------------*/
+.logo{
+	margin: 5px;
+	float: left;
+	clear: both;
+}
+
+#logo{
+	width: 640px;
+	height: 180px;
+	float: left;
+	padding: 5px;
+}
+
+#shark{
+	width: 294px;
+	margin: 10px 0 0 0;
+	float: right;
+	/*padding: 10px;*/
+}
 
 h1{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #101010;
 	margin: 0; 
 	float: left;
-	clear: left;
+	clear: both;
 	text-shadow: 4px 4px 8px #fff;
 }
 
@@ -59,23 +76,25 @@ h2{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #101010;
 	float: left;
-	clear: left;
+	clear: both;
 	text-shadow: 4px 4px 8px #fff;
 }
+/*Header end------------------------------------------------------------*/
+
+/*Main Nav--------------------------------------------------------------*/
 
 .nav{
-	width: 450px;
-	margin: 10px, 0;
+	width: 980px;
+	margin: 10px 0px -10px -10px;
 	background-color: white;
 	list-style-type: none;
 	padding: 0;
-	overflow: hidden;
-	float: right;
-	clear: left;
+	float: left;
+	clear: both;
 }
 
 .listnav{
-	width: 150px;
+	width: 320px;
 	background: #fff;
 	float: left;
 	clear: right;
@@ -96,85 +115,194 @@ a.hoverable:hover{
 	background-color: #5174d5;
 }
 
-.mainshark{
-	margin: 0 auto;
-	width: 294px;
-	height: 171px;
-	float: left;
-	clear: left;
+a:link{
+	color: #5174d5
 }
 
-h3{
-	float:right;
-	clear: right;
+a:visited{
+	color: purple
+}
+
+a:hover{
+	color: #fff
+}
+
+a:active{
+	color: black
+}
+/*Main Nav end----------------------------------------------------------*/
+
+/*Introduction Content--------------------------------------------------*/
+
+.grinddefinition{
+	width: 300px;
+	display: block;
+	font-size: 22px;
+	margin: 20px 40px -5px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	clear: both;
 }
 
 .introductioninfo{
 	width: 636px;
 	height: 115px;
-	padding: 10px 10px;
+	padding: 15px 10px;
 	display: block;
-	background: #e0e0e0;
-	border: 1px solid #fff;
 	text-align: left;
-	margin: 0 auto;
 	float: left;
-	clear: right;
+	margin: -10px 10px;
+	clear: both;
 }
 
 .link{
-	border: 5px solid #6699ff;
+	width: 200px;
+	height: 50px;
+	margin: -115px 30px;
+	border: 5px solid #707070;
 	display: block;
-	padding: 10px;
-	background-color: #e0e0e0;
-	float: left;
+	padding: 10px 10px;
+	background-color: #e3edff;
+	border-radius: 15px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	line-height: 25px;
+	float: right;
+	clear: both;
 	color: #5174d5;
+}
+/*Introduction Content end----------------------------------------------*/
+
+/*Gallery---------------------------------------------------------------*/
+
+#gallery{
+	margin: 0, auto;
+	clear: both;
+}
+
+#galleryheading{
+	margin: 20px 20px;
+	font-size: 16px;
+	float: left;
 }
 
 .imagegallery{
 	list-style-type: none;
-	border: 1px solid #fff;
-	width: 680px;
-	margin: 10px auto;
+	/*border: 3px dotted #fff;*/
+	width: 825px;
+	margin: -20px 20px;
 	overflow: hidden;
-	padding: 10px;
-	clear: left;
+	padding: 20px;
+	float: left;
+	clear: right;
+	
 }
 
 .gallerylist{
 	float: left;
 	margin-left: 10px;
-	overflow: hidden
 }
 
 .gallerylink{
-	border: 5px solid #fff;
+	border: 5px solid;
 	display: block;
 	height: 85px;
 	width: 145px;
-	overflow: hidden;
+}
+/*Gallery end-----------------------------------------------------------*/
+
+/*Gallery Links properties----------------------------------------------*/
+.gallerylink:link{
+	border-color: #e3edff;
 }
 
-.gallerylink:link
-	border-color: #e3edff;
-
-.gallerylink:visited
+.gallerylink:visited{
 	border-color: navy;
+}
 
-.gallerylink:hover
+.gallerylink:hover{
 	border-color: #fff;
-	
-.gallerylink:active
+}
+
+.gallerylink:active{
 	border-color: #000;
+}
+/*Gallery Links end-----------------------------------------------------*/
+
+/*Sharks Facts----------------------------------------------------------*/
 
 #SharkFacts{
+	margin: 20px 20px -5px;
+	font-size: 16px;
 	float: left;
-	clear: left;
+	clear: both;
 }
 
 .sharkfacts{
+	margin: -30px 20px 10px;
 	list-style-type: circle;	
+	clear: both;
 }
 
+/*Sharks Facts end------------------------------------------------------*/
 
+/*Why Sharks Bite People------------------------------------------------*/
 
+#Article{
+	margin: 0 20px;
+	font-size: 18px;
+ 	clear: both;
+}
+
+section{
+	margin: 0 20px;
+}
+
+.columns{
+	column-count: 3;
+	-moz-column-count: 3;
+	-ms-column-count: 3;
+	-o-column-count: 3;
+	-webkit-column-count: 3;
+	text-align: justify;
+	padding: 5px;
+	margin: 0 20px 0 20px;
+	line-height: 15px
+	width: 860px;
+	height: 230px;
+}
+/*Why Sharks Bite People end--------------------------------------------*/
+
+/*External Link---------------------------------------------------------*/
+
+aside{
+	margin: 0 20px;
+	clear: both;
+}
+
+h4{
+	font-size: 18px;
+	margin: -10px 0;
+}
+/*External Link end-----------------------------------------------------*/
+
+/*Top Link--------------------------------------------------------------*/
+
+.toplink{
+	margin: 0 20px;
+	padding: 10px;
+	width: 30px;
+	float: left;
+	clear: both;
+}
+/*Top Link end----------------------------------------------------------*/
+
+/*Footer----------------------------------------------------------------*/
+
+footer{
+	margin: 0 10px;
+	padding: 10px;
+}
+/*Footer end------------------------------------------------------------*/
