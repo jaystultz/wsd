@@ -189,7 +189,7 @@ a:active{
 
 .imagegallery{
 	list-style-type: none;
-	/*border: 3px dotted #fff;*/
+	border: 3px dotted #fff;
 	width: 825px;
 	margin: -20px 20px;
 	overflow: hidden;
