@@ -177,7 +177,7 @@ a:active{
 /*Gallery---------------------------------------------------------------*/
 
 #gallery{
-	margin: 0, auto;
+	margin: 0 auto;
 	clear: both;
 }
 
@@ -268,7 +268,7 @@ section{
 	text-align: justify;
 	padding: 5px;
 	margin: 0 20px 0 20px;
-	line-height: 15px
+	line-height: 15px;
 	width: 860px;
 	height: 230px;
 }
