@@ -1,6 +1,6 @@
 body{ 
-	font: 100%/1.25 "Helvetica Neue", Helvetica, Arial, sans-serif; /* 16px */
-	width: 960px; /*66.759388038943%;*/ /*960px/1438px --  1438px=width of laptop -- need rule*/
+	font: 1em/1.25 "Helvetica Neue", Helvetica, Arial, sans-serif; /* 16px */
+	max-width: 68.150208623088%; /*980px/1438px --  1438px=width of laptop -- need rule*/
 	margin: 0 auto;
 	background-image: url("../images/blue_swirl copy.jpg");
 	background-attachment: fixed;
@@ -17,6 +17,8 @@ body{
 	margin: 0 auto;
 	/*overflow: hidden;*/
 	background: none;
+	/*border: 1px solid #707070;*/
+	
 
 }
 
@@ -56,25 +58,25 @@ a:active{
 
 /*Header----------------------------------------------------------------*/
 .logo{  /* 100px X 100px */
-	margin: 0.520833333333%; /* 5px / 960px*/ 
+	margin: 0.510204081633%; /* 5px / 980px*/ 
 	float: left;
 	clear: both;
 	/*border: 1px solid #707070;*/
 }
 
 #logo{
-	width: 66.666666666667%; /*640px*/
+	width: 65.30612244898%; /*640px / 980px*/
 	/*height: 180px;*/
 	/*border: 1px solid #707070;*/
 	float: left;
-	padding: 0.78125%; /* 5px */
+	padding: 0.78125%; /* 5px / 640px */
 }
 
 #shark{
-	width: 30.625%; /*294px*/
-	margin: 3.401360544218% 0 0 0; /*10px 0 0 0*/
+	width: 30%; /*294px / 980px */
+	margin: 1.020408163265% 0 0 0; /*10px / 980px 0 0 0*/
 	float: right;
-	/*padding: 10px;*/
+	/*border: 1px solid #707070;*/
 }
 
 h1{
@@ -84,7 +86,7 @@ h1{
 	margin: 0; 
 	float: left;
 	clear: both;
-	text-shadow: 7% 7% 3.5%  #fff; /* 4px 4px 8px */
+	text-shadow: 7% 7% 3.5%  #fff; /* 28px/4px, 28px/4px, 28px/8px */
 }
 
 h2{
@@ -93,7 +95,7 @@ h2{
 	font-size: 1.296875em; /* 20.75px/16px */
 	float: left;
 	clear: both;
-	text-shadow: 7% 7% 3.5% #fff; /* 4px 4px 8px */
+	text-shadow: 7% 7% 3.5% #fff; /* 28px/4px, 28px/4px, 28px/8px */
 }
 /*Header end------------------------------------------------------------*/
 
@@ -101,9 +103,9 @@ h2{
 
 .nav{
 	width: 102.083333333333%;  /*960px / 980px*/
-	margin: 10px 0px -10px -10px;
+	margin: 1.041666666667% 0% -1.041666666667% -1.041666666667%; /*10px 0px -10px -10px* ALL / 960px */
 	overflow: hidden;
-	background-color: white;
+	background-color: #fff;
 	list-style-type: none;
 	padding: 0;
 	float: left;
@@ -111,7 +113,7 @@ h2{
 }
 
 .listnav{
-	width: 32.65306122449%; /*320px / 980px*/
+	width: 33.333333333333%; /*326.666666666667px / 980px*/
 	background: #fff;
 	float: left;
 	clear: right;
@@ -152,10 +154,10 @@ a:active{
 /*Introduction Content--------------------------------------------------*/
 
 .grinddefinition{
-	width: 31.25%; /* 300px / 960px */
+	width: 30.612244897959%; /* 300px / 980px */ /* 300px/960px=31.25%*/
 	display: block;
 	font-size: 1.57142857142857em; /* 22px */
-	margin: 20px 40px -5px;
+	margin: 2.083333333333% 4.166666666667% -0.520833333333%;  /* margins / 960 */ /*2.040816326531% 4.81632653061%; -0.510204081633% 0%; /*20px 40px -5px ALL / 980px*/
 	/*height: 30px;*/
 	line-height: 30px;
 	float: left;
@@ -163,23 +165,23 @@ a:active{
 }
 
 .introductioninfo{
-	width: 66.25%; /* 636px /960px */
+	width: 64.897959183673%; /* 636px /980px */
 	/*height: 115px;*/
-	padding: 15px 10px;
+	padding: 2.358490566038% 1.572327044025%; /*15px 10px both/ 636px*/
 	display: block;
 	text-align: left;
 	float: left;
-	margin: -10px 10px;
+	margin: -1.020408163265% 1.020408163265%; /*-10px 10px / 980px*/
 	clear: both;
 }
 
 .link{
 	width: 20.408163265306%; /* 200px / 980px */
 	/*height: 50px*/
-	margin: -115px 30px;
-	border: 5px solid #707070;
+	margin: -11.734693877551% 3.061224489796%; /*-115px 30px / 980px*/
+	border: 5px solid #707070; 
 	display: block;
-	padding: 10px 10px;
+	padding: 10px;
 	background-color: #e3edff;
 	border-radius: 15px;
 	text-decoration: none;
@@ -194,32 +196,33 @@ a:active{
 
 /*Gallery---------------------------------------------------------------*/
 
-#gallery{
-	margin: 0 auto;
-	clear: both;
+#galleryheading{
+	margin: 2.040816326531% 2.040816326531%; /*20px 20px/ 980px*/
+	font-size: 1em;
+	float: left;
+	/*border: 5px solid #707070; */
 }
 
-#galleryheading{
-	margin: 20px 20px;
-	font-size: 100%;
-	float: left;
+#gallery{
+	max-width: 85.9375%; /*825px / 960px*/
+	margin: 0 auto;
+	clear: both;
 }
 
 .imagegallery{
 	list-style-type: none;
 	border: 3px dotted #fff;
 	width: 85.9375%; /*825px / 960px*/
-	margin: -20px 45px;
+	margin: -2.083333333333% 4.6875%; /*-20px 45px / 960px*/
 	overflow: hidden;
-	padding: 20px;
+	padding: 2.424242424242%; /*20px / 825px*/
 	float: left;
 	clear: right;
-	
 }
 
 .gallerylist{
 	float: left;
-	margin-left: 10px;
+	margin-left: 1.041666666667%; /*10px/960*/
 }
 
 .gallerylink{
@@ -227,6 +230,10 @@ a:active{
 	display: block;
 	height: 85px;
 	width: 145px;
+}
+
+img{
+	max-width: 100%;
 }
 /*Gallery end-----------------------------------------------------------*/
 
@@ -251,14 +258,14 @@ a:active{
 /*Sharks Facts----------------------------------------------------------*/
 
 #SharkFacts{
-	margin: 20px 20px -5px;
+	margin: 2.083333333333% 2.083333333333% -0.520833333333%; /* 20px 20px -5px /960*/
 	font-size: 1em;
 	float: left;
 	clear: both;
 }
 
 .sharkfacts{
-	margin: -30px 20px 10px;
+	margin: -3.125% 2.083333333333% 1.041666666667%; /*-30px 20px 10px / 960px*/
 	list-style-type: circle;	
 	clear: both;
 }
@@ -268,14 +275,14 @@ a:active{
 /*Why Sharks Bite People------------------------------------------------*/
 
 #Article{
-	margin: 0 20px;
+	margin: 0% 2.083333333333%; /*0 20px / 960px*/
 	font-size: 1.125em;
  	clear: both;
 }
 
 section{
 	margin: 0 auto;
-	width:860px;
+	width: 87.755102040816%; /* 860px/980px*/
 }
 
 .columns{
@@ -285,33 +292,33 @@ section{
 	-o-column-count: 3;
 	-webkit-column-count: 3;
 	text-align: justify;
-	padding: 5px;
+	padding: 0.581395348837%; /*5px/860px*/
 	margin: 0 auto;
 	line-height: 15px;
-	width: 860px;
-	height: 210px;
+	width: 89.583333333333%; /* 860px/960px*/
+	height: 210px
 }
 /*Why Sharks Bite People end--------------------------------------------*/
 
 /*External Link---------------------------------------------------------*/
 
 aside{
-	margin: 0 20px;
+	margin: 0% 2.083333333333%; /* 0 20px / 960px*/
 	clear: both;
 }
 
 h4{
 	font-size: 1.125em; /*18px*/
-	margin: -10px 0;
+	margin: -1.041666666667% 0%; /*-10px 0 / 960px*/
 }
 /*External Link end-----------------------------------------------------*/
 
 /*Top Link--------------------------------------------------------------*/
 
 .toplink{
-	margin: 20px 40px;
-	padding: 10px;
-	width: 30px;
+	margin: 2.040816326531% 4.081632653061%; /*20px 40px/980px*/
+	padding: 1.020408163265%; /*10px;*/
+	width: 3.061224489796%; /*30px / 980px*/
 	float: left;
 	clear: both;
 }
@@ -320,8 +327,9 @@ h4{
 /*Footer----------------------------------------------------------------*/
 
 footer{
-	margin: 0 10px;
-	padding: 10px;
+	margin-left: 1.020408163265%; /*0 10px/980px*/
+	padding: 1.0416666666675%; /*10px /960px*/
+	/*border: 1px solid #707070;*/
 }
 /*Footer end------------------------------------------------------------*/
 
