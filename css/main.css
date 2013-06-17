@@ -1,10 +1,10 @@
 body{ 
-	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
-	width: 960px;
+	font: 100%/1.25 "Helvetica Neue", Helvetica, Arial, sans-serif; /* 16px */
+	width: 960px; /*66.759388038943%;*/ /*960px/1438px --  1438px=width of laptop -- need rule*/
 	margin: 0 auto;
-	line-height: 1.25;
 	background-image: url("../images/blue_swirl copy.jpg");
 	background-attachment: fixed;
+	/*overflow: hidden;*/
 	-ms-opacity: 0.9;
 	-moz-opacity: 0.9;
 	-webkit-opacity: 0.9;
@@ -12,13 +12,26 @@ body{
 	opacity: 0.9;
 }
 
+#wrapper{
+	width: 100%; /* 960px */
+	margin: 0 auto;
+	/*overflow: hidden;*/
+	background: none;
+
+}
+
 .container{
-	width: 960px;
+	width: 100%; /* 960px */
+	overflow: hidden;
 	background-image: url("../images/Gray_Gradient.jpg");
 	background-repeat: repeat-x;
 	background-color: #A8A8A8;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 1.041666666667%; /* 10px/960px */
+}
+
+p{ 
+	font-size: 0.875em;	/* 14px */
 }
 
 /* General page link properties-----------------------------------------*/
@@ -42,22 +55,24 @@ a:active{
 
 
 /*Header----------------------------------------------------------------*/
-.logo{
-	margin: 5px;
+.logo{  /* 100px X 100px */
+	margin: 0.520833333333%; /* 5px / 960px*/ 
 	float: left;
 	clear: both;
+	/*border: 1px solid #707070;*/
 }
 
 #logo{
-	width: 640px;
-	height: 180px;
+	width: 66.666666666667%; /*640px*/
+	/*height: 180px;*/
+	/*border: 1px solid #707070;*/
 	float: left;
-	padding: 5px;
+	padding: 0.78125%; /* 5px */
 }
 
 #shark{
-	width: 294px;
-	margin: 10px 0 0 0;
+	width: 30.625%; /*294px*/
+	margin: 3.401360544218% 0 0 0; /*10px 0 0 0*/
 	float: right;
 	/*padding: 10px;*/
 }
@@ -65,26 +80,29 @@ a:active{
 h1{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #101010;
+	font-size: 1.75em;	/* 28px/16px */
 	margin: 0; 
 	float: left;
 	clear: both;
-	text-shadow: 4px 4px 8px #fff;
+	text-shadow: 7% 7% 3.5%  #fff; /* 4px 4px 8px */
 }
 
 h2{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #101010;
+	font-size: 1.296875em; /* 20.75px/16px */
 	float: left;
 	clear: both;
-	text-shadow: 4px 4px 8px #fff;
+	text-shadow: 7% 7% 3.5% #fff; /* 4px 4px 8px */
 }
 /*Header end------------------------------------------------------------*/
 
 /*Main Nav--------------------------------------------------------------*/
 
 .nav{
-	width: 980px;
+	width: 102.083333333333%;  /*960px / 980px*/
 	margin: 10px 0px -10px -10px;
+	overflow: hidden;
 	background-color: white;
 	list-style-type: none;
 	padding: 0;
@@ -93,7 +111,7 @@ h2{
 }
 
 .listnav{
-	width: 320px;
+	width: 32.65306122449%; /*320px / 980px*/
 	background: #fff;
 	float: left;
 	clear: right;
@@ -134,19 +152,19 @@ a:active{
 /*Introduction Content--------------------------------------------------*/
 
 .grinddefinition{
-	width: 300px;
+	width: 31.25%; /* 300px / 960px */
 	display: block;
-	font-size: 22px;
+	font-size: 1.57142857142857em; /* 22px */
 	margin: 20px 40px -5px;
-	height: 30px;
+	/*height: 30px;*/
 	line-height: 30px;
 	float: left;
 	clear: both;
 }
 
 .introductioninfo{
-	width: 636px;
-	height: 115px;
+	width: 66.25%; /* 636px /960px */
+	/*height: 115px;*/
 	padding: 15px 10px;
 	display: block;
 	text-align: left;
@@ -156,8 +174,8 @@ a:active{
 }
 
 .link{
-	width: 200px;
-	height: 50px;
+	width: 20.408163265306%; /* 200px / 980px */
+	/*height: 50px*/
 	margin: -115px 30px;
 	border: 5px solid #707070;
 	display: block;
@@ -166,7 +184,7 @@ a:active{
 	border-radius: 15px;
 	text-decoration: none;
 	text-align: center;
-	font-size: 18px;
+	font-size: 1.125em; /* 18px */
 	line-height: 25px;
 	float: right;
 	clear: both;
@@ -183,14 +201,14 @@ a:active{
 
 #galleryheading{
 	margin: 20px 20px;
-	font-size: 16px;
+	font-size: 100%;
 	float: left;
 }
 
 .imagegallery{
 	list-style-type: none;
 	border: 3px dotted #fff;
-	width: 825px;
+	width: 85.9375%; /*825px / 960px*/
 	margin: -20px 45px;
 	overflow: hidden;
 	padding: 20px;
@@ -234,7 +252,7 @@ a:active{
 
 #SharkFacts{
 	margin: 20px 20px -5px;
-	font-size: 16px;
+	font-size: 1em;
 	float: left;
 	clear: both;
 }
@@ -251,7 +269,7 @@ a:active{
 
 #Article{
 	margin: 0 20px;
-	font-size: 18px;
+	font-size: 1.125em;
  	clear: both;
 }
 
@@ -283,7 +301,7 @@ aside{
 }
 
 h4{
-	font-size: 18px;
+	font-size: 1.125em; /*18px*/
 	margin: -10px 0;
 }
 /*External Link end-----------------------------------------------------*/
@@ -306,3 +324,5 @@ footer{
 	padding: 10px;
 }
 /*Footer end------------------------------------------------------------*/
+
+
