@@ -369,35 +369,21 @@ footer{
 			font-size: .8125em; /*13px*/
 		}
 		
-		#logo{
-			width: 65.30612244898%; /*640px / 980px*/
-			float: left;
-			padding: 0.78125%; /* 5px / 640px */
-		}
-		
 		.logo{  /* 100px X 100px */
 			width: 50%; /*10.204081632653%; /*100px/ 980px */
 			margin: 4.166666666666% 50% 0%;
-			float: left;
-			clear: both;
-			/*border: 1px solid #707070;*/
 		}
 
 		#shark{
 			display: none;
 		}
 
-
 		h1{
-			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-			color: #101010;
 			font-size: 1.55555555555556em;	/* 28px/18px */
 			margin: 0% 40% 4.166666666666%; 
 			width: 100%;
-			float: left;
-			clear: both;
 		}
-
+		
 		h2{
 			display: none;
 		}
@@ -416,20 +402,14 @@ footer{
 		.introductioninfo{
 			width: 95%;
 			padding: 0;
-			display: block;
-			text-align: left;
-			float: left;
-			clear: both;
 		}
 
 		.link{
 			width: 60%;
 			margin: 5% 25% 0% 10%;
 			padding: 4%;
-			text-align: center;
 			font-size: 1em; /* 16px */
 			float: left;
-			clear: both;
 		}	
 		
 		#galleryheading{
@@ -437,29 +417,20 @@ footer{
 		}
 		
 		.imagegallery{
-			border: 3px dotted #fff;
-			width: 85.9375%; /*825px / 960px*/
 			margin: 0 auto;
-			overflow: hidden;
 			padding: 0;
-			float: left;
 			clear: none;
 		}
 		
-		
 		.gallerylist{
-			display: inline-block;
 			margin: 5% 20%;
 			max-width: 60%;
 		}
 
 		.gallerylink{
-			border: 5px solid;
-			display: block;
 			margin: 0%;
-}
+		}
 
-		
 		#SharkFacts{
 			font-size: .875em; /*14px*/
 		}
