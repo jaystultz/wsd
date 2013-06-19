@@ -88,7 +88,7 @@ h1{
 	margin: 0; 
 	float: left;
 	clear: both;
-	text-shadow: 7% 7% 3.5%  #fff; /* 28px/4px, 28px/4px, 28px/8px */
+	text-shadow: #fff 7% 7% 3.5%; /* 28px/4px, 28px/4px, 28px/8px */
 }
 
 h2{
@@ -97,7 +97,7 @@ h2{
 	font-size: 1.296875em; /* 20.75px/16px */
 	float: left;
 	clear: both;
-	text-shadow: 7% 7% 3.5% #fff; /* 28px/4px, 28px/4px, 28px/8px */
+	text-shadow: #fff 7% 7% 3.5%; /* 28px/4px, 28px/4px, 28px/8px */
 }
 /*Header end------------------------------------------------------------*/
 
@@ -230,7 +230,7 @@ a:active{
 
 .gallerylink{
 	border: 5px solid;
-	display: block;
+	display: inline-block;
 	height: 47.752808988764%; /*85px*/
 	width: 51.236749116608%; /*145px*/
 	margin: 3.448275862069%;
@@ -374,16 +374,14 @@ footer{
 		
 		#logo{
 			width: 65.30612244898%; /*640px / 980px*/
-			/*height: 180px;*/
-			/*border: 1px solid #707070;*/
-			float: none;
+			float: left;
 			padding: 0.78125%; /* 5px / 640px */
 		}
 		
 		.logo{  /* 100px X 100px */
 			width: 50%; /*10.204081632653%; /*100px/ 980px */
 			margin: 4.166666666666% 50% 0%;
-			float: none;
+			float: left;
 			clear: both;
 			/*border: 1px solid #707070;*/
 		}
@@ -397,7 +395,7 @@ footer{
 			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 			color: #101010;
 			font-size: 1.55555555555556em;	/* 28px/18px */
-			margin: 0% 50% 4.166666666666%; 
+			margin: 0% 40% 4.166666666666%; 
 			width: 100%;
 			float: left;
 			clear: both;
@@ -420,7 +418,7 @@ footer{
 		
 		.introductioninfo{
 			width: 95%;
-			padding: none;
+			padding: 0;
 			display: block;
 			text-align: left;
 			float: left;
@@ -446,7 +444,7 @@ footer{
 			width: 85.9375%; /*825px / 960px*/
 			margin: 0 auto;
 			overflow: hidden;
-			padding: none;
+			padding: 0;
 			float: left;
 			clear: none;
 		}
