@@ -198,14 +198,14 @@ a:active{
 /*Gallery---------------------------------------------------------------*/
 
 #galleryheading{
-	margin: 2.040816326531% 2.040816326531%; /*20px 20px/ 980px*/
+	margin: 2.040816326531% 2.040816326531%; 
 	font-size: 1em;
 	float: left;
 	clear: both;
 }
 
 #gallery{
-	width: 85.9375%; /*825px / 960px*/
+	width: 85.9375%; 
 	margin: 0 auto;
 	clear: right;
 }
@@ -213,26 +213,24 @@ a:active{
 .imagegallery{
 	list-style-type: none;
 	border: 3px dotted #fff;
-	width: 85.9375%; /*825px / 960px*/
-	margin: -2.083333333333% 4.6875%; /*-20px 45px / 960px*/
+	width: 85.9375%; 
+	margin: -2.083333333333% 4.6875%;
 	overflow: hidden;
-	padding: 2.424242424242%; /*20px / 825px*/
+	padding: 2%;
 	float: left;
 	clear: right;
 }
 
 .gallerylist{
-	float: left;
-	clear: right;
-	margin-left: 1.041666666667%; /*10px/960*/
+	display: inline-block;
+	margin: 1%;
+	max-width: 17%;
 }
 
 .gallerylink{
 	border: 5px solid;
-	display: inline-block;
-	height: 47.752808988764%; /*85px*/
-	width: 51.236749116608%; /*145px*/
-	margin: 3.448275862069%;
+	display: block;
+	margin: 1.04167%;
 }
 
 
@@ -448,12 +446,19 @@ footer{
 			clear: none;
 		}
 		
+		
 		.gallerylist{
-			width: 100%;
-			margin: 5% 10% 5% 18%;
-			float: left;
-			clear: both;
+			display: inline-block;
+			margin: 5% 20%;
+			max-width: 60%;
 		}
+
+		.gallerylink{
+			border: 5px solid;
+			display: block;
+			margin: 0%;
+}
+
 		
 		#SharkFacts{
 			font-size: .875em; /*14px*/
