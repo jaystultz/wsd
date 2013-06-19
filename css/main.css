@@ -161,7 +161,7 @@ a:active{
 	font-size: 1.57142857142857em; /* 22px */
 	margin: 2.083333333333% 4.166666666667% -0.520833333333%;  /* margins / 960 */ /*2.040816326531% 4.81632653061%; -0.510204081633% 0%; /*20px 40px -5px ALL / 980px*/
 	/*height: 30px;*/
-	line-height: 30px;
+	line-height: 150%; /*30px*/
 	float: left;
 	clear: both;
 }
@@ -189,7 +189,7 @@ a:active{
 	text-decoration: none;
 	text-align: center;
 	font-size: 1.125em; /* 18px */
-	line-height: 25px;
+	line-height: 100%;
 	float: right;
 	clear: both;
 	color: #5174d5;
@@ -202,13 +202,13 @@ a:active{
 	margin: 2.040816326531% 2.040816326531%; /*20px 20px/ 980px*/
 	font-size: 1em;
 	float: left;
-	/*border: 5px solid #707070; */
+	clear: both;
 }
 
 #gallery{
-	max-width: 85.9375%; /*825px / 960px*/
+	width: 85.9375%; /*825px / 960px*/
 	margin: 0 auto;
-	clear: both;
+	clear: right;
 }
 
 .imagegallery{
@@ -224,19 +224,23 @@ a:active{
 
 .gallerylist{
 	float: left;
+	clear: right;
 	margin-left: 1.041666666667%; /*10px/960*/
 }
 
 .gallerylink{
 	border: 5px solid;
 	display: block;
-	max-height: 100%; /*85px*/
-	max-width: 100%; /*145px*/
+	height: 47.752808988764%; /*85px*/
+	width: 51.236749116608%; /*145px*/
+	margin: 3.448275862069%;
 }
+
 
 img{
 	max-width: 100%;
 }
+
 
 /*Gallery end-----------------------------------------------------------*/
 
@@ -297,7 +301,7 @@ section{
 	text-align: justify;
 	padding: 0.581395348837%; /*5px/860px*/
 	margin: 0 auto;
-	line-height: 15px;
+	line-height: 100%;
 	width: 89.583333333333%; /* 860px/960px*/
 	height: 100%; /*210px*/
 }
@@ -353,8 +357,163 @@ footer{
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
 	@media only screen and (max-width: 479px){
 	
-	}
+		body{
+			background-image: url("../images/Gray_Gradient.jpg");
+			background-repeat: repeat-x;
+			background-color: #A8A8A8;
+			background-attachment: fixed;
+		}
+		
+		.container{
+			background: none;
+		}
 	
+		p{
+			font-size: .8125em; /*13px*/
+		}
+		
+		#logo{
+			width: 65.30612244898%; /*640px / 980px*/
+			/*height: 180px;*/
+			/*border: 1px solid #707070;*/
+			float: none;
+			padding: 0.78125%; /* 5px / 640px */
+		}
+		
+		.logo{  /* 100px X 100px */
+			width: 50%; /*10.204081632653%; /*100px/ 980px */
+			margin: 4.166666666666% 50% 0%;
+			float: none;
+			clear: both;
+			/*border: 1px solid #707070;*/
+		}
+
+		#shark{
+			display: none;
+		}
+
+
+		h1{
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			color: #101010;
+			font-size: 1.55555555555556em;	/* 28px/18px */
+			margin: 0% 50% 4.166666666666%; 
+			width: 100%;
+			float: left;
+			clear: both;
+		}
+
+		h2{
+			display: none;
+		}
+		
+		.nav{
+			display: none;
+		}
+		
+		.grinddefinition{
+			width: 100%;
+			font-size: 1.25em; /* 20px */
+			margin: 4.166666666666% 2.083333333333% 0%; 
+			text-align: left; 
+		}
+		
+		.introductioninfo{
+			width: 95%;
+			padding: none;
+			display: block;
+			text-align: left;
+			float: left;
+			clear: both;
+		}
+
+		.link{
+			width: 60%;
+			margin: 5% 25% 0% 10%;
+			padding: 4%;
+			text-align: center;
+			font-size: 1em; /* 16px */
+			float: left;
+			clear: both;
+		}	
+		
+		#galleryheading{
+			font-size: .875em; /*14px*/
+		}
+		
+		.imagegallery{
+			border: 3px dotted #fff;
+			width: 85.9375%; /*825px / 960px*/
+			margin: 0 auto;
+			overflow: hidden;
+			padding: none;
+			float: left;
+			clear: none;
+		}
+		
+		.gallerylist{
+			width: 100%;
+			margin: 5% 10% 5% 18%;
+			float: left;
+			clear: both;
+		}
+		
+		#SharkFacts{
+			font-size: .875em; /*14px*/
+		}
+
+		.sharkfacts{
+			font-size: .875em; /*14px*/
+		}
+
+/*Why Sharks Bite People------------------------------------------------*/
+
+		#Article{
+			font-size: 1em;
+			margin: 5% 0% -1% 2.083333333333%;
+		}
+
+section{
+	margin: 0 auto;
+	width: 87.755102040816%; /* 860px/980px*/
+}
+
+.columns{
+	column-count: 3;
+	-moz-column-count: 3;
+	-ms-column-count: 3;
+	-o-column-count: 3;
+	-webkit-column-count: 3;
+	text-align: justify;
+	padding: 0.581395348837%; /*5px/860px*/
+	margin: 0 auto;
+	line-height: 100%;
+	width: 89.583333333333%; /* 860px/960px*/
+	height: 100%; /*210px*/
+}
+/*Why Sharks Bite People end--------------------------------------------*/
+
+/*External Link---------------------------------------------------------*/
+
+aside{
+	margin: 0% 2.083333333333%; /* 0 20px / 960px*/
+	clear: both;
+}
+
+h4{
+	font-size: 1.125em; /*18px*/
+	margin: -1.041666666667% 0%; /*-10px 0 / 960px*/
+}
+/*External Link end-----------------------------------------------------*/
+
+/*Top Link--------------------------------------------------------------*/
+
+.toplink{
+		display: none;
+		
+		}
+		
+		
 	
 	
 	
