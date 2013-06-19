@@ -464,54 +464,31 @@ footer{
 
 		.sharkfacts{
 			font-size: .875em; /*14px*/
+			margin: 0 auto 5% -6%;
 		}
-
-/*Why Sharks Bite People------------------------------------------------*/
 
 		#Article{
 			font-size: 1em;
 			margin: 5% 0% -1% 2.083333333333%;
 		}
 
-section{
-	margin: 0 auto;
-	width: 87.755102040816%; /* 860px/980px*/
-}
-
-.columns{
-	column-count: 3;
-	-moz-column-count: 3;
-	-ms-column-count: 3;
-	-o-column-count: 3;
-	-webkit-column-count: 3;
-	text-align: justify;
-	padding: 0.581395348837%; /*5px/860px*/
-	margin: 0 auto;
-	line-height: 100%;
-	width: 89.583333333333%; /* 860px/960px*/
-	height: 100%; /*210px*/
-}
-/*Why Sharks Bite People end--------------------------------------------*/
-
-/*External Link---------------------------------------------------------*/
-
-aside{
-	margin: 0% 2.083333333333%; /* 0 20px / 960px*/
-	clear: both;
-}
-
-h4{
-	font-size: 1.125em; /*18px*/
-	margin: -1.041666666667% 0%; /*-10px 0 / 960px*/
-}
-/*External Link end-----------------------------------------------------*/
-
-/*Top Link--------------------------------------------------------------*/
-
-.toplink{
-		display: none;
-		
+		.columns{
+			column-count: 1;
+			-moz-column-count: 1;
+			-ms-column-count: 1;
+			-o-column-count: 1;
+			-webkit-column-count: 1;
+			margin: -3% auto 3% auto;
 		}
+
+		h4{
+			font-size: 1em; /*16px*/
+		}
+		
+		.toplink{
+			display: none;
+		}
+	}
 		
 		
 	
