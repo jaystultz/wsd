@@ -349,6 +349,108 @@ footer{
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
 	@media only screen and (min-width: 480px) and (max-width: 767px){
 	
+		p{
+			font-size: .875em; /*14px*/
+		}
+		
+		.logo{  /* 100px X 100px */
+			width: 40%; /*10.204081632653%; /*100px/ 980px */
+			margin: 0% 0% 4.166666666666% 2%; 
+		}
+		
+		#shark{
+			margin: 5% 3% 0% 0%; 
+		}
+
+		h1{
+			font-size: 2em;	/* 36px/18px */
+			margin: 0% 0% 4.166666666666% 3%; 
+			max-width: 100%;
+			clear: both
+		}
+		
+		h2{
+			font-size: 1.25em;	
+			margin: 0% 0% 4.166666666666% 0%; 
+			max-width: 100%;
+			clear: both;
+		}
+		
+		.nav{
+			display: none;
+		}
+		
+		.grinddefinition{
+			width: 100%;
+			font-size: 1.25em; /* 20px */
+			margin: 4.166666666666% 2.083333333333% 0%; 
+			text-align: left; 
+		}
+		
+		.introductioninfo{
+			width: 95%;
+			padding: 0;
+			margin: 0% 2%;
+		}
+
+		.link{
+			width: 60%;
+			margin: 5% 25% 0% 15%;
+			padding: 4%;
+			font-size: 1em; /* 16px */
+			float: left;
+		}	
+		
+		#galleryheading{
+			font-size: .875em; /*14px*/
+		}
+		
+		.imagegallery{
+			margin: 0% 10% 0% 5%;
+			padding: 0;
+			clear: none;
+		}
+		
+		.gallerylist{
+			margin: 5% 10% 5% 15%;
+			max-width: 70%;
+		}
+
+		.gallerylink{
+			margin: 0%;
+		}
+
+		#SharkFacts{
+			font-size: .875em; /*14px*/
+		}
+
+		.sharkfacts{
+			font-size: .875em; /*14px*/
+			margin: 0% 4% 5% 0%;
+		}
+
+		#Article{
+			font-size: 1em;
+			margin: 5% 0% -1% 2.083333333333%;
+		}
+
+		.columns{
+			column-count: 1;
+			-moz-column-count: 1;
+			-ms-column-count: 1;
+			-o-column-count: 1;
+			-webkit-column-count: 1;
+			margin: -3% auto 3% auto;
+		}
+
+		h4{
+			font-size: 1em; /*16px*/
+		}
+		
+		.toplink{
+			display: none;
+		}
+	
 	}	
 	
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
