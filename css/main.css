@@ -3,7 +3,7 @@ body{
 	font-weight: 400;
 	font-size: 1em;
 	line-height: 125%;
-	max-width: 68.150208623088%; /*980px/1438px --  1438px=width of laptop --*/
+	max-width: 68.055555555556%; /*980px/1440px --  1438px=width of laptop --*/
 	margin: 0 auto;
 	background-image: url("../images/blue_swirl copy.jpg");
 	background-attachment: fixed;
@@ -21,7 +21,7 @@ body{
 }
 
 .container{
-	width: 100%; /* 960px */
+	max-width: 100%; /* 960px */
 	overflow: hidden;
 	background-image: url("../images/Gray_Gradient.jpg");
 	background-repeat: repeat-x;
@@ -38,19 +38,19 @@ p{
 /* General page link properties-----------------------------------------*/
 
 a:link{
-	color: blue
+	color: #5174d5;
 }
 
 a:visited{
-	color: purple
+	color: #a8a8a8;
 }
 
 a:hover{
-	color: #fff
+	color: #fff;
 }
 
 a:active{
-	color: black
+	color: #000;
 }
 
 
@@ -142,19 +142,19 @@ a.hoverable:hover{
 }
 
 a:link{
-	color: #5174d5
+	color: #5174d5;
 }
 
 a:visited{
-	color: purple
+	color: #a8a8a8;
 }
 
 a:hover{
-	color: #fff
+	color: #fff;
 }
 
 a:active{
-	color: black
+	color: #000;
 }
 /*Main Nav end----------------------------------------------------------*/
 
@@ -208,19 +208,19 @@ a.hover:hover{
 }
 
 a:link{
-	color: #5174d5
+	color: #5174d5;
 }
 
 a:visited{
-	color: purple
+	color: #a8a8a8;
 }
 
 a:hover{
-	color: #fff
+	color: #fff;
 }
 
 a:active{
-	color: black
+	color: #000;
 }
 
 
@@ -237,7 +237,7 @@ a:active{
 }
 
 #gallery{
-	width: 85.9375%; 
+	width: 90%; 
 	margin: 0 auto;
 	clear: right;
 }
@@ -245,24 +245,24 @@ a:active{
 .imagegallery{
 	list-style-type: none;
 	border: 3px dotted #fff;
-	width: 85.9375%; 
-	margin: -2.083333333333% 4.6875%;
+	width: 95%; 
+	margin: -2.083333333333% 2.34375%;
 	overflow: hidden;
-	padding: 2%;
+	padding: 0%;
 	float: left;
 	clear: right;
 }
 
 .gallerylist{
 	display: inline-block;
-	margin: 1%;
+	margin: 1.25%;
 	max-width: 17%;
 }
 
 .gallerylink{
 	border: 5px solid;
 	display: block;
-	margin: 1.04167%;
+	margin: 1%;
 }
 
 
@@ -279,7 +279,7 @@ img{
 }
 
 .gallerylink:visited{
-	border-color: navy;
+	border-color: #a8a8a8;
 }
 
 .gallerylink:hover{
@@ -381,6 +381,12 @@ footer{
 /* =Media Queries
 ========================================================================*/
 
+	/* Standard 960 to 15" laptop screen(devices and browsers)*/
+	@media screen and (min-width: 960px) and (max-width: 1440px){
+	
+	
+	}
+
 	/* Tablet Portrait size to standard 960 (devices and browsers)*/
 	@media screen and (min-width: 768px) and (max-width: 959px){
 	
@@ -428,15 +434,16 @@ footer{
 		}
 		
 		.imagegallery{
-			margin: 0% 10% 0% 5%;
+			margin: 0% 7%;
 			padding: 0;
 			clear: none;
 		}
 		
 		.gallerylist{
-			margin: 5%;
-			max-width: 39%;
+			margin: 5% 20%;
+			max-width: 70%;
 		}
+
 
 		.gallerylink{
 			margin: 0%;
