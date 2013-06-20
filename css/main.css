@@ -83,7 +83,7 @@ h1{
 	font-weight: 400;
 	color: #101010;
 	font-size: 2em;	
-	max-width: 100%;
+	width: 130%;
 	margin: 0%; 
 	float: left;
 	clear: both;
@@ -485,10 +485,10 @@ footer{
 		}
 		
 		h2{
-			font-size: 1.25em;	
+			font-size: 1.25em;
 			text-indent: 1%;
-			margin: 0% 0% 4.166666666666% 0%; 
-			max-width: 100%;
+			margin: 2% 0% 4.166666666666% 0%; 
+			width: 140%;
 			clear: both;
 		}
 		
@@ -596,11 +596,10 @@ footer{
 		}
 
 		h1{
-			font-size: 1.5em;	
+			font-size: 1.5em;
+			line-height: 120%;	
 			margin: 10% 10% 4.166666666666%; 
 			padding: 5%
-			text-indent: ;
-			width: 100%;
 		}
 		
 		h2{
