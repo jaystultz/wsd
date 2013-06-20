@@ -585,9 +585,8 @@ footer{
 
 		h1{
 			font-size: 1.5em;	
-			margin: 10% 10% 4.166666666666%; 
+			margin: 2.083333333333% 4.166666666667% -0.520833333333%;/
 			padding: 5%
-			text-indent: ;
 			width: 100%;
 		}
 		
@@ -600,7 +599,6 @@ footer{
 		}
 		
 		.grinddefinition{
-			text-indent: 3%;
 			width: 100%;
 			font-size: 1em;
 			margin: 4.166666666666% 2.083333333333%; 
