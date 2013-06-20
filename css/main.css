@@ -1,5 +1,5 @@
 body{ 
-	font: 1em/1.25 "Helvetica Neue", Helvetica, Arial, sans-serif; /* 16px */
+	font: 1em/125% 'Titillium Web', Helvetica, Arial, sans-serif; /* 16px */
 	max-width: 68.150208623088%; /*980px/1438px --  1438px=width of laptop --*/
 	margin: 0 auto;
 	background-image: url("../images/blue_swirl copy.jpg");
@@ -14,9 +14,7 @@ body{
 #wrapper{
 	width: 100%; /* 960px */
 	margin: 0 auto;
-	background: none;
-	
-
+	background: none;	
 }
 
 .container{
@@ -75,9 +73,10 @@ a:active{
 
 
 h1{
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: 'Shojumaru', Arial, Helvetica, sans-serif;
+	font-weight: normal;
 	color: #101010;
-	font-size: 1.75em;	/* 28px/16px */
+	font-size: 2em;	
 	margin: 0; 
 	float: left;
 	clear: both;
@@ -85,9 +84,11 @@ h1{
 }
 
 h2{
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: 'Telex', Arial, Helvetica, sans-serif;
+	font-weight: 400;
 	color: #101010;
-	font-size: 1.375em; /* 22px/16px */
+	font-size: 1.5em; 
+	width: 100%;
 	float: left;
 	clear: both;
 	text-shadow: 4px 4px 8px #686868; 
@@ -149,7 +150,7 @@ a:active{
 /*Introduction Content--------------------------------------------------*/
 
 .grinddefinition{
-	width: 30.612244897959%; /* 300px / 980px */ /* 300px/960px=31.25%*/
+	width: 100%; 
 	display: block;
 	font-size: 1.57142857142857em; /* 22px */
 	margin: 2.083333333333% 4.166666666667% -0.520833333333%;  /* margins / 960 */ /*2.040816326531% 4.81632653061%; -0.510204081633% 0%; /*20px 40px -5px ALL / 980px*/
@@ -169,8 +170,8 @@ a:active{
 }
 
 .link{
-	width: 20.408163265306%; /* 200px / 980px */
-	margin: -11.734693877551% 3.061224489796%; /*-115px 30px / 980px*/
+	width: 20.408163265306%; 
+	margin: -15% 3.061224489796%; 
 	border: 5px solid #707070; 
 	display: block;
 	padding: 10px;
@@ -179,7 +180,7 @@ a:active{
 	text-decoration: none;
 	text-align: center;
 	font-size: 1.125em; /* 18px */
-	line-height: 100%;
+	line-height: 125%;
 	float: right;
 	clear: both;
 	color: #5174d5;
@@ -289,9 +290,8 @@ section{
 	text-align: justify;
 	padding: 0.581395348837%; /*5px/860px*/
 	margin: 0 auto;
-	line-height: 100%;
-	width: 89.583333333333%; /* 860px/960px*/
-	height: 100%; /*210px*/
+	line-height: 110%;
+	width: 89.583333333333%; /* 860px/960px*/\
 }
 /*Why Sharks Bite People end--------------------------------------------*/
 
@@ -322,8 +322,10 @@ h4{
 /*Footer----------------------------------------------------------------*/
 
 footer{
+	line-height: 110%;
 	margin-left: 1.020408163265%; /*0 10px/980px*/
 	padding: 1.0416666666675%; /*10px /960px*/
+
 }
 /*Footer end------------------------------------------------------------*/
 
@@ -343,15 +345,17 @@ footer{
 		}
 		
 		h1{
-			font-size: 2em;	/* 36px/18px */
-			margin: 0% 0% 4.166666666666% 3%; 
+			margin: 0% 0% 4.166666666666% 3%;
+			text-indent: -2%;
 			max-width: 100%;
 			clear: both
 		}
 		
+		
+		
 		h2{
-			font-size: 1.25em;	
 			margin: 0% 0% 4.166666666666% 0%; 
+			text-indent: 1%;
 			max-width: 100%;
 			clear: both;
 		}
@@ -397,6 +401,12 @@ footer{
 			-o-column-count: 1;
 			-webkit-column-count: 1;
 			text-align: left;
+			margin: -3% auto;
+		}
+		
+		.toplink{
+			margin: -2.040816326531% 4.081632653061% 2.040816326531%; /*20px 40px/980px*/
+
 		}
 	}
 	
@@ -418,7 +428,8 @@ footer{
 		}
 
 		h1{
-			font-size: 2em;	/* 36px/18px */
+			font-size: 1.75em;	/* 36px/18px */
+			text-indent: -2%;
 			margin: 0% 0% 4.166666666666% 3%; 
 			max-width: 100%;
 			clear: both
@@ -426,6 +437,7 @@ footer{
 		
 		h2{
 			font-size: 1.25em;	
+			text-indent: 1%;
 			margin: 0% 0% 4.166666666666% 0%; 
 			max-width: 100%;
 			clear: both;
@@ -527,7 +539,7 @@ footer{
 		}
 		
 		.logo{  /* 100px X 100px */
-			width: 50%; /*10.204081632653%; /*100px/ 980px */
+			width: 45%; /*10.204081632653%; /*100px/ 980px */
 			margin: 4.166666666666% 50% 0%;
 		}
 
@@ -536,8 +548,9 @@ footer{
 		}
 
 		h1{
-			font-size: 1.55555555555556em;	/* 28px/18px */
+			font-size: 1.5em;	
 			margin: 0% 40% 4.166666666666%; 
+			text-indent: -2%;
 			width: 100%;
 		}
 		
@@ -550,9 +563,10 @@ footer{
 		}
 		
 		.grinddefinition{
+			text-indent: 3%;
 			width: 100%;
-			font-size: 1.25em; /* 20px */
-			margin: 4.166666666666% 2.083333333333% 0%; 
+			font-size: 1em;
+			margin: 4.166666666666% 2.083333333333%; 
 			text-align: left; 
 		}
 		
@@ -574,6 +588,7 @@ footer{
 		}
 		
 		.imagegallery{
+			border: none;
 			margin: 0 auto;
 			padding: 0;
 			clear: none;
