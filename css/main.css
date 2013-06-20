@@ -391,17 +391,13 @@ footer{
 		}
 		
 		.columns{
-	column-count: 3;
-	-moz-column-count: 3;
-	-ms-column-count: 3;
-	-o-column-count: 3;
-	-webkit-column-count: 3;
-	text-align: justify;
-	padding: 0.581395348837%; /*5px/860px*/
-	margin: 0 auto;
-	line-height: 100%;
-	width: 89.583333333333%; /* 860px/960px*/
-	height: 100%; /*210px*/
+			column-count: 1;
+			-moz-column-count: 1;
+			-ms-column-count: 1;
+			-o-column-count: 1;
+			-webkit-column-count: 1;
+			text-align: left;
+		}
 	}
 	
 	
