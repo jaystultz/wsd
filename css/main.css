@@ -1,6 +1,6 @@
 body{ 
-	font: 1em/125% 'Titillium Web', Helvetica, Arial, sans-serif; /* 16px */
-	font-weight: normal;
+	font: 1em/125% 'Pathway+Gothic+One', Helvetica, Arial, sans-serif; /* 16px */
+	font-weight: normal 400;
 	max-width: 68.150208623088%; /*980px/1438px --  1438px=width of laptop --*/
 	margin: 0 auto;
 	background-image: url("../images/blue_swirl copy.jpg");
@@ -31,6 +31,8 @@ body{
 p{ 
 	font-size: 0.875em;	/* 14px */
 }
+
+
 
 /* General page link properties-----------------------------------------*/
 
@@ -328,8 +330,9 @@ section{
 	text-align: justify;
 	padding: 0.581395348837%; /*5px/860px*/
 	margin: 0 auto;
-	line-height: 110%;
-	width: 89.583333333333%; /* 860px/960px*/\
+	line-height: 120%;
+	width: 89.583333333333%; /* 860px/960px*/
+	max-height: 100%;
 }
 /*Why Sharks Bite People end--------------------------------------------*/
 
