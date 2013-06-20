@@ -245,8 +245,8 @@ a:active{
 .imagegallery{
 	list-style-type: none;
 	border: 3px dotted #fff;
-	width: 95%; 
-	margin: -2.083333333333% 2.34375%;
+	width: 97%; 
+	margin: 0% 1%;
 	overflow: hidden;
 	padding: 0%;
 	float: left;
@@ -255,14 +255,14 @@ a:active{
 
 .gallerylist{
 	display: inline-block;
-	margin: 1.25%;
+	margin: 1%;
 	max-width: 17%;
 }
 
 .gallerylink{
 	border: 5px solid;
 	display: block;
-	margin: 1%;
+	margin: .5%;
 }
 
 
@@ -380,12 +380,6 @@ footer{
 
 /* =Media Queries
 ========================================================================*/
-
-	/* Standard 960 to 15" laptop screen(devices and browsers)*/
-	@media screen and (min-width: 960px) and (max-width: 1440px){
-	
-	
-	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers)*/
 	@media screen and (min-width: 768px) and (max-width: 959px){
