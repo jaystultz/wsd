@@ -49,6 +49,8 @@ a:hover{
 a:active{
 	color: black
 }
+
+
 /*end-------------------------------------------------------------------*/
 
 
@@ -78,6 +80,7 @@ h1{
 	font-weight: normal;
 	color: #101010;
 	font-size: 2em;	
+	max-width: 100%;
 	margin: 0%; 
 	float: left;
 	clear: both;
@@ -89,7 +92,7 @@ h2{
 	font-weight: normal;
 	color: #101010;
 	font-size: 1.5em; 
-	width: 110%;
+	width: 100%;
 	float: left;
 	clear: both;
 	text-shadow: 4px 4px 8px #686868; 
@@ -176,7 +179,7 @@ a:active{
 
 .link{
 	width: 20.408163265306%; 
-	margin: -15% 3.061224489796%; 
+	margin: -17% 3.061224489796%; 
 	border: 5px solid #707070; 
 	display: block;
 	padding: 10px;
@@ -190,6 +193,35 @@ a:active{
 	clear: both;
 	color: #5174d5;
 }
+
+a.hover{
+	text-decoration: none;
+	background: none;
+	text-align: center;
+	color: #5174d5;
+}
+a.hover:hover{
+	color: #fff;
+	background-color: none;
+}
+
+a:link{
+	color: #5174d5
+}
+
+a:visited{
+	color: purple
+}
+
+a:hover{
+	color: #fff
+}
+
+a:active{
+	color: black
+}
+
+
 /*Introduction Content end----------------------------------------------*/
 
 /*Gallery---------------------------------------------------------------*/
@@ -544,8 +576,7 @@ footer{
 		}
 		
 		.logo{  /* 100px X 100px */
-			width: 45%; /*10.204081632653%; /*100px/ 980px */
-			margin: 0% 10% 4.166666666666%; 
+			display: none;
 		}
 
 		#shark{
@@ -554,8 +585,9 @@ footer{
 
 		h1{
 			font-size: 1.5em;	
-			margin: 0% 10% 4.166666666666%; 
-			text-indent: -2%;
+			margin: 10% 10% 4.166666666666%; 
+			padding: 5%
+			text-indent: ;
 			width: 100%;
 		}
 		
