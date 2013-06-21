@@ -428,14 +428,14 @@ footer{
 		}
 		
 		.imagegallery{
-			margin: 0% 7%;
+			margin: 0% 0% 0% 1%;
 			padding: 0;
 			clear: none;
 		}
 		
 		.gallerylist{
 			margin: 5% 20%;
-			max-width: 70%;
+			max-width: 100%;
 		}
 
 
@@ -522,7 +522,7 @@ footer{
 		}
 		
 		.imagegallery{
-			margin: 0% 10% 0% 5%;
+			margin: 0% 0% 0% 1%;
 			padding: 0;
 			clear: none;
 		}
