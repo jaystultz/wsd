@@ -431,6 +431,9 @@ table.table2 th{
 
 /*Footer----------------------------------------------------------------*/
 
+.bottom{
+	background-image: url("../images/Gray_Gradient.jpg");
+}
 footer{
 	line-height: 110%;
 	margin-left: 1.020408163265%; /*0 10px/980px*/
