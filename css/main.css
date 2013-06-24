@@ -375,13 +375,12 @@ table {
 	border-collapse: collapse;
 	float: left;
 	clear: both;
-	width: 47%;
+	width: 25%;
 }
 
 th{
-	font-family: 'Merienda', cursive;
-	font-size: 1.75em;
-	line-height: 130%;
+	font-size: 1em;
+	line-height: 150%;
 	text-align: center;
 	color: #fff;
 	background-color: #5174d5;
@@ -391,10 +390,11 @@ th{
 
 td{
 	border: none;
+	font-size: 0.75em;
+	line-height: 120%;
 	background-color: #fff;
 	color: #5174d5;
-	/*border: 1px solid #000;*/
-	padding: 3% 2%;
+	padding: 5%;
 	text-align: center;
 
 }
@@ -402,7 +402,7 @@ td{
 
 
 table.table1{
-	margin: 1% 0% 1% 3%;
+	margin: 1% 0% 1% 1%;
 	float: left;
 	clear: right;
 }
@@ -412,7 +412,7 @@ table.table1 th{
 }
 
 table.table2{
-	margin: 1% 3% 1% 0%;
+	margin: 1% 1% 15% 0%;
 	float: left;
 	clear: right;
 }
