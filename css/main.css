@@ -402,7 +402,7 @@ td{
 
 
 table.table1{
-	margin: 1% 0% 1% 1%;
+	margin: 15% 0% 1% 1%;
 	float: left;
 	clear: right;
 }
@@ -412,7 +412,7 @@ table.table1 th{
 }
 
 table.table2{
-	margin: 1% 1% 15% 0%;
+	margin: 15% 1% 15% 0%;
 	float: left;
 	clear: right;
 }
