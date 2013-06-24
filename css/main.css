@@ -409,15 +409,31 @@ td{
 }
 
 td.td3{
+	border-bottom-left-radius: 10px;
+
+}
+td.td4{
 	background: none;
+}
+
+td.td5{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+
+/*TABLE end-------------------------------------------------------------*/
+form{
+	background: none;
+	border: 1px solid #000;
+}
+
+input:focus{
+	background: #5174d5;
 }
 
 
 
-
-
-
-/*TABLE end-------------------------------------------------------------*/
 
 
 /*Footer----------------------------------------------------------------*/
