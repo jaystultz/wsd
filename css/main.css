@@ -308,6 +308,23 @@ img{
 
 /*Sharks Facts end---------------------------------------------------------------------*/
 
+/*External Link------------------------------------------------------------------------*/
+
+aside{
+	margin: 0% 6%; /* 0 20px / 960px*/
+	clear: both;
+}
+
+h4{
+	font-size: 1em; /*18px*/
+	width: 100%;
+	margin: 3% 0% 0%;
+	float: left;
+	clear: both;
+	
+}
+/*External Link end--------------------------------------------------------------------*/
+
 /*Why Sharks Bite People---------------------------------------------------------------*/
 
 #Article{
@@ -341,22 +358,6 @@ strong
 }
 /*Why Sharks Bite People end-----------------------------------------------------------*/
 
-/*External Link------------------------------------------------------------------------*/
-
-aside{
-	margin: 0% 2.083333333333%; /* 0 20px / 960px*/
-	clear: both;
-}
-
-h4{
-	font-size: 1.125em; /*18px*/
-	width: 100%;
-	margin: -1.041666666667% 0% 1.041666666667%;/*-10px 0 / 960px*/
-	float: left;
-	clear: both;
-	
-}
-/*External Link end--------------------------------------------------------------------*/
 
 /*Top Link-----------------------------------------------------------------------------*/
 
@@ -371,12 +372,18 @@ h4{
 
 /*TABLE--------------------------------------------------------------------------------*/
 
+#member{
+	width: 45%;
+	border: 1px solid #fff;
+	margin: 8% 2% 2% 2%;
+}
+
 table{
 	border-collapse: collapse;
 	float: left;
 	clear: right;
-	width: 95%;
-	margin: 5% 2%;
+	width: 35%;
+	margin: 8% 3% 5% 2%;
 }
 
 th{
@@ -428,7 +435,6 @@ td.td5{
 
 form{
 	background: none;
-	border: 1px solid #000;
 }
 
 input:focus{
@@ -436,6 +442,7 @@ input:focus{
 }
 
 legend{
+	width: 50%;
 	font-size: 1.125em;
 	padding: 1em;
 }
@@ -458,13 +465,21 @@ textarea{
 	margin: 1.5% 1% .5% 1%;
 }
 
+.hear{
+	margin-bottom: 3%;
+}
+
 #hear{
-	margin: 1.5% 1% .5% 1%;
+	margin: 2% 1%;
 }
 
 #agree_terms{
 	float: left;
 	clear: right;
+}
+
+.agree_terms{
+	font-size: .75em;
 }
 
 button{
