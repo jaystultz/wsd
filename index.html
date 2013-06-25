@@ -131,7 +131,7 @@
 
 	<form method="post" action="example@example.com">
 		<fieldset>
-			<legend>Tell Us About Yourself</legend>
+			<legend>Member Sign Up Form</legend>
 		<div>
 			<label for="name_first">First Name</label>
 			<input type="text" name="name_first" id="name_first"/>
@@ -153,7 +153,7 @@
 		</div>
 		
 		<div>
-			<label for="bio">About Me</label>
+			<label for="bio">Tell us a little about yourself</label>
 			<textarea rows="10" cols="30" name="bio" id="bio"></textarea>
 		</div>
 		
@@ -169,7 +169,15 @@
 					<option>Member referral</option>
 				</select>
 		</div>
-
+		
+		<div>
+			<input type="radio" name="agree_terms" id="agree_terms" />
+			<p>I have read and agree to the terms and conditions.</p>
+		</div>
+		
+		<div>
+			<button type="submit" name="submit" class="submit">Sign Up</button>
+		</div>
 		</fieldset>
 	</form>
 
