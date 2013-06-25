@@ -460,8 +460,13 @@ form{
 	background: none;
 }
 
+input{
+	background: #e0e0e0;
+	margin: 0.5% 1%;
+}
 input:focus{
-	background: #5174d5;
+	background-color: #5174d5;
+	border: 1px solid #fff;
 }
 
 #sign_up{
@@ -493,12 +498,13 @@ label{
 	display: block;
 }
 
-input{
-	margin: 0.5% 1%;
-}
-
 textarea{
 	margin: 1.5% 1% .5% 1%;
+	background-color: #e0e0e0;
+}
+
+textarea:focus{
+	border: 2px solid #5174d5;
 }
 
 .hear{
@@ -507,6 +513,8 @@ textarea{
 
 #hear{
 	margin: 2% 1%;
+	width: 30%;
+	font-size: .8em;
 }
 
 #agree_terms{
@@ -522,8 +530,8 @@ textarea{
 }
 
 button{
-	width: 30%;
-	font-size: 1.25em;
+	width: 25%;
+	font-size: 1.125em;
 	background-color: #5174d5;
 	color: #fff;
 	margin-left: 28%;
@@ -533,7 +541,9 @@ button{
 }
 
 .submit:hover{
-	text-decoration: underline
+	text-decoration: underline;
+	color: #5174d5;
+	background-color: #fff;
 }
 /*FORM end-----------------------------------------------------------------------------*/
 
