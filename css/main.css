@@ -640,12 +640,8 @@ footer{
 		
 		.toplink{
 			margin: -2.040816326531% 4.081632653061% 2.040816326531%; /*20px 40px/980px*/
-
 		}
 		
-		#member{
-			/*background: none;*/
-		}
 		#plans{
 			font-size: 1.25em;
 			width: 40%;
@@ -847,7 +843,6 @@ footer{
 			font-size: .7em;
 			width: 30%;
 			margin: 0.5% 1% 0.5% 1%;
-			/*border: 2px solid #fff;*/
 		}
 		
 		input{
@@ -1038,7 +1033,6 @@ footer{
 			width: 50%;
 			margin: 1%;
 			text-align: left;
-			/*border: 2px solid #fff;*/
 		}
 		
 		input{
@@ -1071,11 +1065,8 @@ footer{
 			font-size: .8em;
 		}
 		
-		button{
-			margin: 8% 20% 12% 20%;
-			width: 60%;
-		}
 	}
+	
 		
 	
 	
