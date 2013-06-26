@@ -662,16 +662,16 @@ footer{
 		
 		th.th1{
 			font-size: 1.5em;
-			padding: none;
+			padding: 0%;
 		}
 
 		th.th2{
 			font-size: 1.5em;
-			padding: none;
+			padding: 0%;
 		}
 		
 		td{
-			padding: none;
+			padding: 0%;
 		}
 		
 		#sign_up{
