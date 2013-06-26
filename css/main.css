@@ -642,6 +642,67 @@ footer{
 			margin: -2.040816326531% 4.081632653061% 2.040816326531%; /*20px 40px/980px*/
 
 		}
+		
+		#member{
+			/*background: none;*/
+		}
+		#plans{
+			font-size: 1.25em;
+			width: 40%;
+			margin: 0% 30%;
+			background: none;
+		}
+		
+		table{
+			width: 90%;
+			margin: 2% 5% 5% 5%;
+			float: none;
+			clear: none;			
+		}
+		
+		th.th1{
+			font-size: 1.5em;
+			padding: none;
+		}
+
+		th.th2{
+			font-size: 1.5em;
+			padding: none;
+		}
+		
+		td{
+			padding: none;
+		}
+		
+		#sign_up{
+			background: none;
+			max-width: 100%;
+			margin: -3% 0% 5% 0%;
+			font-size: 1.5em;
+			text-align: center;
+			text-decoration: underline;
+		}
+		
+		#signup{
+			padding: 1%;
+		}
+		
+		label{
+			margin: 0.5% 1% 0.5% 8%;
+		}
+		
+		#agree_terms{
+			margin: 1% 2% 4% 35%;
+		}
+		
+		.agree_terms{
+			margin: 1% 2% 4% 35%;
+			font-size: .8em;
+		}
+		
+		button{
+			margin-left: 35%;
+		}
 	}
 	
 	
