@@ -203,6 +203,7 @@ a.hover{
 	text-align: center;
 	color: #5174d5;
 }
+
 a.hover:hover{
 	color: #fff;
 }
@@ -702,6 +703,10 @@ footer{
 			font-size: .875em; /*14px*/
 		}
 		
+		a:link{
+			color: #6699FF;
+		}
+		
 		.logo{  /* 100px X 100px */
 			width: 40%; /*10.204081632653%; /*100px/ 980px */
 			margin: 0% 0% 4.166666666666% 2%; 
@@ -896,6 +901,14 @@ footer{
 			font-size: .8125em; /*13px*/
 		}
 		
+		a.hover{
+			color: #3366FF;
+		}		
+		
+		a:link{
+			color: #3366FF;
+		}
+		
 		.logo{  /* 100px X 100px */
 			display: none;
 		}
@@ -937,6 +950,7 @@ footer{
 			margin: 5% 25% 0% 10%;
 			padding: 4%;
 			font-size: 1em; /* 16px */
+			color: 3366FF;
 			float: left;
 		}	
 		
@@ -960,6 +974,10 @@ footer{
 			margin: 0%;
 		}
 
+		.gallerylink:link{
+			border-color: #3366FF;
+		}
+		
 		#SharkFacts{
 			font-size: .875em; /*14px*/
 		}
@@ -1016,7 +1034,7 @@ footer{
 			float: none;
 			clear: none;
 		}
-		
+				
 		th.th1{
 			font-size: .8em;
 			border: 1px solid #000;
@@ -1026,6 +1044,10 @@ footer{
 			font-size: .8em;
 			border: 1px solid #000;
 			padding: 1%;
+		}
+		
+		td{
+			color: #3366FF;
 		}
 				
 		#sign_up{
@@ -1056,6 +1078,10 @@ footer{
 		#bio{
 			width: 90%;
 			margin: 2% 1%;
+		}
+		
+		textarea:focus{
+			border: 2px solid #3366FF;
 		}
 		
 		.hear{
