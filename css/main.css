@@ -413,7 +413,6 @@ th{
 
 th.th1{
 	border-top-left-radius: 10px;	
-	max-width: 100%;
 	padding: 5%;
 }
 
@@ -986,8 +985,13 @@ footer{
 
 		h4{
 			font-size: 1em; /*16px*/
+			margin: 0%;
 		}
 		
+		aside{
+			margin: 0% 0% 15% 0%;
+		}
+				
 		.toplink{
 			display: none;
 		}
@@ -999,10 +1003,11 @@ footer{
 		#plans{
 			font-size: 1.25em;
 			width: 100%;
-			margin: 1% auto;
+			margin: 8% 0% 3% 0%;
 			text-align: center;
 			color: #484848;
 			background: none;
+			padding: 1% 0%;
 		}
 		
 		table{
@@ -1014,10 +1019,13 @@ footer{
 		
 		th.th1{
 			font-size: .8em;
+			border: 1px solid #000;
 		}
 
 		th.th2{
 			font-size: .8em;
+			border: 1px solid #000;
+			padding: 1%;
 		}
 				
 		#sign_up{
