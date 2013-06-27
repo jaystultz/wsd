@@ -950,7 +950,7 @@ footer{
 			margin: 5% 25% 0% 10%;
 			padding: 4%;
 			font-size: 1em; /* 16px */
-			color: 3366FF;
+			color: blue;
 			float: left;
 		}	
 		
@@ -975,7 +975,7 @@ footer{
 		}
 
 		.gallerylink:link{
-			border-color: #3366FF;
+			border-color: #fff;
 		}
 		
 		#SharkFacts{
@@ -1012,6 +1012,7 @@ footer{
 				
 		.toplink{
 			display: none;
+			color: blue;
 		}
 
 		#member{
@@ -1046,10 +1047,6 @@ footer{
 			padding: 1%;
 		}
 		
-		td{
-			color: #3366FF;
-		}
-				
 		#sign_up{
 			background: none;
 			max-width: 100%;
@@ -1078,10 +1075,6 @@ footer{
 		#bio{
 			width: 90%;
 			margin: 2% 1%;
-		}
-		
-		textarea:focus{
-			border: 2px solid #3366FF;
 		}
 		
 		.hear{
