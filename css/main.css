@@ -703,8 +703,12 @@ footer{
 			font-size: .875em; /*14px*/
 		}
 		
+		a.hover{
+			color: blue;
+		}		
+		
 		a:link{
-			color: #6699FF;
+			color: blue;
 		}
 		
 		.logo{  /* 100px X 100px */
@@ -754,6 +758,7 @@ footer{
 			margin: 5% 25% 0% 15%;
 			padding: 4%;
 			font-size: 1em; /* 16px */
+			color: blue;
 			float: left;
 		}	
 		
@@ -774,6 +779,10 @@ footer{
 
 		.gallerylink{
 			margin: 0%;
+		}
+		
+		.gallerylink:link{
+			border-color: #fff;
 		}
 
 		#SharkFacts{
@@ -805,6 +814,7 @@ footer{
 		
 		.toplink{
 			display: none;
+			color: blue;
 		}
 				
 		#plans{
@@ -902,11 +912,19 @@ footer{
 		}
 		
 		a.hover{
-			color: #3366FF;
-		}		
+			color: blue;
+		}	
+		
+		a.hover:hover{
+			color: #fff;
+		}	
 		
 		a:link{
-			color: #3366FF;
+			color: blue;
+		}
+		
+		a:hover{
+			color: #fff;
 		}
 		
 		.logo{  /* 100px X 100px */
@@ -921,7 +939,7 @@ footer{
 			font-size: 1.5em;
 			line-height: 120%;	
 			margin: 10% 10% 4.166666666666%; 
-			padding: 5%
+			padding: 5%;
 		}
 		
 		h2{
@@ -1038,12 +1056,10 @@ footer{
 				
 		th.th1{
 			font-size: .8em;
-			border: 1px solid #000;
 		}
 
 		th.th2{
 			font-size: .8em;
-			border: 1px solid #000;
 			padding: 1%;
 		}
 		
